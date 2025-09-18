@@ -1,2 +1,0 @@
-# Niharika-Sapre
-Personal Website 
