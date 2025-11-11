@@ -1,0 +1,8 @@
+{
+  "tailwindCSS.experimental.configFile": "/Users/niharikasapre/Code/Niharika-Sapre-main/my-website/tailwind.config.js",
+  "tailwindCSS.includeLanguages": {
+    "typescriptreact": "html",
+    "javascriptreact": "html"
+  },
+  "tailwindCSS.emmetCompletions": true
+}
