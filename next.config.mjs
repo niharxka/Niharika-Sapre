@@ -2,6 +2,12 @@ import createMDX from "@next/mdx";
 
 const withMDX = createMDX();
 
-export default withMDX({
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   pageExtensions: ["ts", "tsx", "mdx"],
-});
+  experimental: {
+    turbo: false,
+  },
+};
+
+export default withMDX(nextConfig);
